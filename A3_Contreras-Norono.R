@@ -59,7 +59,7 @@ ing_laboral_imput <- personas %>%
                                no = ing_laboral))
 
 
-# Justificacion
+# Justificacion de variables
 
 
 
