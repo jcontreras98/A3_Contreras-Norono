@@ -1,4 +1,5 @@
 # Integrantes:
+
 ## Juan Contreras, C.I. 26.411.263
 ## Luis Noroño, C.I. 26.961.171
 
@@ -58,9 +59,24 @@ ing_laboral_imput <- personas %>%
                                yes = avg_ing,
                                no = ing_laboral))
 
+# Calculamos el porcentaje de valores faltantes imputados
+
+
 
 # Justificacion de variables
 
+
+## Nivel Educativo: La relación entre ingreso y nivel educativo es directamente 
+## proporcional. El nivel educativo de las personas puede ser un referente de 
+## sus niveles de ingresos, en general a mayor nivel de estudios se espera un 
+## mayor ingreso. En consecuencia, es un 
+## buen referente para la imputación de datos. 
+
+# Categoría Ocupacional: En Venezuela existe una gran población de personas 
+## con estudios superiores, buena parte de esto se le atribuye a la gran 
+## cantidad de universidades públicas en el país; sin embargo, no 
+## necesariamente el acumulado de los estudios garantiza mayores niveles de 
+## ingreso, buena parte de esto depende además del sector al que se dedica.
 
 
 
